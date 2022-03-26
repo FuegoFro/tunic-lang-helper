@@ -1,0 +1,113 @@
+.letterContainer {
+    /*height: 50px;*/
+    /*width: 50px;*/
+    /*background-color: antiquewhite;*/
+    position: relative;
+    margin: 12% 0;
+}
+
+.letterContainer * {
+    height: 5%;
+    background-color: #61dafb;
+    position: absolute;
+    border-radius: 999px;
+}
+
+.active {
+    background-color: #61dafb;
+}
+
+.disabled {
+    background-color: #1113;
+}
+
+.v1 {
+    transform: rotate(30deg);
+    left: 45%;
+    width: 55%;
+}
+
+.v2 {
+    transform: rotate(-30deg);
+    width: 55%;
+}
+
+.v3 {
+    width: 7%;
+    height: 40%;
+    left:2%;
+    top: 10%;
+}
+
+.v4 {
+     width: 7%;
+     height: 20%;
+     left:2%;
+     bottom: 10%;
+ }
+
+.v5 {
+    transform: rotate(30deg);
+    width: 55%;
+    bottom: 0;
+}
+
+.v6 {
+    transform: rotate(-30deg);
+    left: 45%;
+    width: 55%;
+    bottom: 0;
+}
+
+.c0 {
+    width: 7%;
+    height: 33%;
+    left: 46.5%;
+    top: -5%;
+}
+
+.c1 {
+    width: 7%;
+    height: 25%;
+    left: 46.5%;
+    top: 25%;
+}
+
+.c2 {
+    transform: rotate(30deg);
+    width: 55%;
+    top: 16%;
+}
+
+.c3 {
+    transform: rotate(-30deg);
+    left: 45%;
+    width: 55%;
+    top: 16%;
+}
+
+.c4 {
+    width: 7%;
+    height: 33%;
+    left: 46.5%;
+    bottom: -5%;
+}
+
+.c5 {
+    transform: rotate(-30deg);
+    width: 55%;
+    bottom: 16%;
+}
+
+.c6 {
+    transform: rotate(30deg);
+    left: 45%;
+    width: 55%;
+    bottom: 16%;
+}
+
+.center {
+    width: 96%;
+    left: 2%;
+    top: 45%;
+}
