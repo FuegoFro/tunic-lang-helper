@@ -1,6 +1,7 @@
 {
   "name": "tunic-lang-helper",
   "version": "0.1.0",
+  "homepage": "https://fuegofro.github.io/tunic-lang-helper/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
