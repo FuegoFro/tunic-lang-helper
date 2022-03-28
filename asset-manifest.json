@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tunic-lang-helper/static/css/main.b2b5b92c.css",
+    "main.js": "/tunic-lang-helper/static/js/main.7f9f57c0.js",
+    "static/js/787.4d4ae200.chunk.js": "/tunic-lang-helper/static/js/787.4d4ae200.chunk.js",
+    "index.html": "/tunic-lang-helper/index.html",
+    "main.b2b5b92c.css.map": "/tunic-lang-helper/static/css/main.b2b5b92c.css.map",
+    "main.7f9f57c0.js.map": "/tunic-lang-helper/static/js/main.7f9f57c0.js.map",
+    "787.4d4ae200.chunk.js.map": "/tunic-lang-helper/static/js/787.4d4ae200.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2b5b92c.css",
+    "static/js/main.7f9f57c0.js"
+  ]
+}
