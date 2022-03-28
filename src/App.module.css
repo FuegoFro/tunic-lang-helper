@@ -1,13 +1,17 @@
 .appHeader {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
+  font-size: 18px;
   color: white;
 }
 
 .primitivesContainer {
   display: flex;
-  gap: 20px
+  flex-direction: column;
+}
+
+.primitivesContainerInner {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }

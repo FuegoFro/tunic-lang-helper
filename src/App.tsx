@@ -69,16 +69,16 @@ function App() {
                     setData(newData);
                 }}/>
                 <div className={styles.primitivesContainer}>
-                    <div>
-                        <p>Vowels</p>
+                    <p>Vowels</p>
+                    <div className={styles.primitivesContainerInner}>
                         {primitivesWithIndices.filter(([[l, _1], _2]) => {
                             return isVowel(l)
                         }).map(([primitive, idx]) => {
                             return <PrimitiveView key={idx} primitive={primitive} onClick={() => handlePrimitiveClicked(idx)}/>
                         })}
                     </div>
-                    <div>
-                        <p>Consonants</p>
+                    <p>Consonants</p>
+                    <div className={styles.primitivesContainerInner}>
                         {primitivesWithIndices.filter(([[l, _1], _2]) => {
                             return isConsonant(l)
                         }).map(([primitive, idx]) => {
